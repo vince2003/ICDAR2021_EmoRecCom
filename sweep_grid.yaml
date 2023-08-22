@@ -1,0 +1,20 @@
+name: grid_comics
+description: explore lan 1
+method: grid
+metric:  
+  name: AUC_val
+  goal: maximize
+parameters:
+  bce_w:
+    distribution: categorical    
+    values: [1]
+  mse_w:
+    distribution: categorical    
+    values: [1]    
+  lr:
+    values: [0.001]
+    
+  batch_size:
+    values: [64]
+
+program: run_cqa.py
