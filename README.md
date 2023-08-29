@@ -7,7 +7,7 @@ Official Code for the 4rd Place in Multimodal Emotion Recognition on Comics scen
 - [Training](#Training)
 - [Inference](#Inference)
 - [Data](#Data)
-- [Automatically Logged Data](#loggeddata)
+- [Logged Data](#loggeddata)
 
 ## Installation
 **Requirements:**
